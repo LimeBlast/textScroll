@@ -19,7 +19,7 @@ for character in string_to_show:
        scroll_rows[i] += [0] # gap between letters
 
 for i in range(8):
-    scroll_rows[i]+=[0]*8 # b;ank space at end of message
+    scroll_rows[i]+=[0]*8 # blank space at end of message
 
 for scroll_position in range(len(scroll_rows[0])-8):
     for y in range(8):
