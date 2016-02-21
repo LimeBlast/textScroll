@@ -44,7 +44,7 @@ for letter in char_set: # main dictionary creation loop
     font_dictionary[letter]=letter_data
 
 font_dictionary[' ']=[[0]*4]*8 # space gets trimmed to empty otherwise
-font_dictionary['@']=[[0,1,1,1,1,1,0],[1,1,0,0,0,1,1],[1,1,0,1,1,1,1,1],[1,1,0,1,0,0,1],[1,1,0,1,1,1,1],[1,1,0,0,0,0,0],[0,1,1,1,1,1,0],[0]*7]
+font_dictionary['@']=[[0,1,1,1,1,1,0],[1,1,0,0,0,1,1],[1,1,0,1,1,1,1],[1,1,0,1,0,0,1],[1,1,0,1,1,1,1],[1,1,0,0,0,0,0],[0,1,1,1,1,1,0],[0]*7]
 
 
 pygame.quit()
