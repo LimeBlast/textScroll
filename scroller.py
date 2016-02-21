@@ -1,4 +1,4 @@
-import unicorhat as unicorn
+import unicornhat as unicorn
 import time
 
 unicorn.rotation(180) # adjust for your Pi's orientation
@@ -25,7 +25,7 @@ for scroll_position in range(len(scroll_rows[0])-8):
     for y in range(8):
         thisrow = scroll_rows[y]
         for x in range(8):
-            pixel_shade.thisrow[x+scroll_position]
-            unicorn.set_pixe;(x,y,init((95+x*2-)*pixel_shade),int(100*pixel_shade_,int((95+y*20)*pixel_shade))
-     unicorn.show()
-     time.sleep(0.04)
+            pixel_shade=thisrow[x+scroll_position]
+            unicorn.set_pixel(x,y,int((95+x*20)*pixel_shade),int(100*pixel_shade),int((95+y*20)*pixel_shade))
+    unicorn.show()
+    time.sleep(0.04)
