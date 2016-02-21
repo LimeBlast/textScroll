@@ -3,9 +3,10 @@ import pygame
 pygame.init()
 canvas=pygame.display.set_mode((100,100))
 pygame.mouse.set_visible
-char_set = "QWERTYUIOP ASDFGHJKL ZXCVBNM \
-1234567890-= !$%^&*()_+"
-char_set += "[]{} ;'~:@~ ,./<>?\"\\"
+char_set = "QWERTYUIOP ASDFGHJKL ZXCVBNM"
+char_set += "qwertyuiop asdfghjkl zxcvbnm"
+char_set += "1234567890"
+char_set += "-= !$%^&*()_+ []{} ;'~:@~ ,./<>?\"\\"
 font_dictionary = dict()
 
 for letter in char_set: # main dictionary creation loop
